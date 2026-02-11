@@ -10,10 +10,10 @@ class JaggedArrayStaircase{
             }
         }
 
-        System.out.println("staircase pattern:");
+        System.out.println("Staircase pattern:");
         for(int i=0;i<n;i++) {
             for(int j=0;j<staircase[i].length;j++) {
-                System.out.println(staircase[i][j] + " ");
+                System.out.print(staircase[i][j] + " ");
             }
             System.out.println();
         }
